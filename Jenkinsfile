@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'composer'
+        sh 'composer about'
       }
     }
   }
